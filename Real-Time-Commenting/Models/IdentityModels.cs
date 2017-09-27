@@ -22,6 +22,7 @@ namespace Real_Time_Commenting.Models
     {
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
+
         {
         }
 
@@ -29,5 +30,8 @@ namespace Real_Time_Commenting.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<BlogPost> BlogPost { get; set; }
+        public DbSet<Comment> Comment { get; set; }
     }
 }
