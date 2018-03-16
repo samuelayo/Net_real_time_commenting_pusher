@@ -1,23 +1,13 @@
-# Net_real_time_commenting_pusher
-Implementing real-time comment feature using pusher and .NET
+# BUILD REALTIME COMMENTS USING ASP.NET
 
-### Getting Started
+Here, we will learn about implementing real-time comment feature using pusher and .NET. The full tutorial can be found here : [https://pusher.com/tutorials/realtime-comments-aspnet/ ](https://pusher.com/tutorials/realtime-comments-aspnet/) 
 
-Clone the project repository by running the command below if you use SSH
+## Getting Started
 
-```
-git clone git@github.com:samuelayo/Net_real_time_commenting_pusher.git
-```
 
-If you use https, use this instead
+### Prerequisites
 
-```
-git clone https://github.com/samuelayo/Net_real_time_commenting_pusher.git
-```
-
-After cloning, open the `Real-Time-Commenting.sln` file in visual studio.
-
-### Setup Pusher
+#### Setup Pusher
 
 If you don't have one already, create a free Pusher account at https://pusher.com/signup then login to your dashboard and create an app. 
 
@@ -36,3 +26,10 @@ var pusher = new Pusher('XXX_APP_KEY', {cluster: 'XXX_CLUSTER'});
 ```
 
 And finally, start the application by clicking the debug button on your visual studio.
+
+## Built With
+
+* [Pusher](https://pusher.com/) - APIs to enable devs building realtime features
+* [ASP.NET](https://www.asp.net/) - Open source web framework for building modern web apps and services with .NET. 
+* [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
+
